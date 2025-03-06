@@ -55,7 +55,6 @@ def poisson(x, μ):
     
     return f"{possibility}"
 
-# Test the function with different inputs
 print(poisson(4, 3))
 print(poisson(">=4", 3))
 print(poisson("<=4", 3))
